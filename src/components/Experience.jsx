@@ -211,36 +211,8 @@ export const Experience = (props) => {
               color={"blue"}
             />
           </mesh>
-          <mesh scale={[1.9, 1.3, 1.3]} position={[-2, -9, -1]}>
-            <boxGeometry />
-            <MeshWobbleMaterial
-              opacity={0.8}
-              transparent
-              factor={1}
-              speed={5}
-              color={"green"}
-            />
-          </mesh>
-          <mesh scale={[1.9, 1.3, 1.3]} position={[-2, -9, -1]}>
-            <boxGeometry />
-            <MeshWobbleMaterial
-              opacity={0.3}
-              transparent
-              factor={1}
-              speed={19}
-              color={"green"}
-            />
-          </mesh>
-          <mesh scale={[1.9, 1.3, 1.3]} position={[-2, -9, -1]}>
-            <boxGeometry />
-            <MeshWobbleMaterial
-              opacity={0.8}
-              transparent
-              factor={1}
-              speed={5}
-              color={"indigo-600"}
-            />
-          </mesh>
+         
+         
         </Float>
       </motion.group>
       <Projects />
