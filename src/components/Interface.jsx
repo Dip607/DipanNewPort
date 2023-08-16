@@ -190,7 +190,7 @@ const ProjectsSection = () => {
         >
           ← Previous
         </button>
-        <h2 className="text-8xl md:text-5xl font-bold"> My Projects</h2>
+        <h2 className="text-2xl md:text-5xl font-bold"> My Projects</h2>
         <button
           className="hover:text-indigo-200 transition-colors"
           onClick={nextProject}
